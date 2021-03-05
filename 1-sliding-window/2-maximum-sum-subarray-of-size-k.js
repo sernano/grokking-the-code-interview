@@ -9,7 +9,7 @@
 
 function maxSubArrayOfSizeK(arr, k) {
   let sum = 0, // Holds the most recent sum
-    result = 0, // Holds the return value;
+    result = 0, // Holds the return value
     start = 0; // Holds the index of the window start
   /* Initialize a for loop with a variable holding the index of the window end that
      iterates for the entire length of the array */
