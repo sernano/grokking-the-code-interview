@@ -43,3 +43,9 @@ function fruitsIntoBaskets(fruits) {
 }
 
 fruitsIntoBaskets(['A', 'B', 'C', 'A', 'C']); // returns 3
+
+/* This algorithm's time complexity will be O(N), where N is the number of characters in the input array. The outer for
+   loop runs for every character, while the inner while loop processes each character only once.
+
+   The algorithm runs in constant space O(1) because there will only be a maximum of three unique characters stored in
+   the character map */
