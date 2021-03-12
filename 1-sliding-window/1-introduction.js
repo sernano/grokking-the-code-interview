@@ -1,6 +1,7 @@
-/* The following example will calculate the average of all contiguous subarrays of size 'K' found within arr.
-   The time complexity of this brute-force algorithm will be O(N*K), where N is the number of elements in the
-   input array. */
+/* In problems dealing with an array or linked list, we are asked to find or calculate something among all of
+   the contiguous subarrays of a given size. The following example will calculate the average of all contiguous
+   subarrays of size 'K' found within arr. The time complexity of this brute-force algorithm will be O(N*K),
+   where N is the number of elements in the input array. */
 
 function findAvgOfSubArrays(K, arr) {
   const result = [];
